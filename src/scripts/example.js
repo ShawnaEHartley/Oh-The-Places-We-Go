@@ -1,10 +1,10 @@
 class Example {
   constructor(ele) {
     this.ele = ele;
-    this.ele.innerHTML = "<h1>never write css in the main.css file, only in the index.scss file</h1>"
+    this.ele.innerHTML = "<h1>Oh! The Places We Go - coming soon</h1>"
     this.handleClick = this.handleClick.bind(this);
 
-    this.ele.addEventListener('click', this.handleClick())
+    this.ele.addEventListener('click', this.handleClick)
   }
 
   handleClick(e) {
