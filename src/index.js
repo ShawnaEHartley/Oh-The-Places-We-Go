@@ -2,6 +2,7 @@ import Choropleth from './scripts/chroropleth'
 import hale from './scripts/hale.json'
 import world from './scripts/world.json'
 import countrymesh from './scripts/countrymesh.json'
+import locations from './scripts/locations.json'
 
 const countries = topojson.feature(world, world.objects.countries);
 const chart = Choropleth(hale, {
@@ -13,11 +14,20 @@ const chart = Choropleth(hale, {
   borders: countrymesh,
   projection: d3.geoEqualEarth(),
   title: (_, d) => d ? d.name : '',
+  cb: async (_, i) => {
+    let loc = locations.data.find((loc) => {
+      return loc.name === i.properties.name
+    })
+    console.log(loc)
+    if (!loc) return;
+    const resp = await fetch(`https://population.un.org/dataportalapi/api/v1/data/indicators/65/locations/${loc.id}/start/2005/end/2005`);
+    const dta = await resp.json();
+    console.log(dta.data[0].value)
+  }
 })
 
 document.body.appendChild(chart);
 
-console.log(typeof hale)
 
 // document.addEventListener('DOMContentLoaded', () => {
 //   // console.log("hello world")
