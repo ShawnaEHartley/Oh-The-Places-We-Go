@@ -4,6 +4,7 @@ import world from './scripts/world.json'
 import countrymesh from './scripts/countrymesh.json'
 import locations from './scripts/locations.json'
 
+
 const countries = topojson.feature(world, world.objects.countries);
 const chart = Choropleth(hale, {
   id: d => d.name, // country name, e.g. Zimbabwe
@@ -20,32 +21,51 @@ const chart = Choropleth(hale, {
     })
     console.log(loc)
     if (!loc) return;
-    const resp = await fetch(`https://population.un.org/dataportalapi/api/v1/data/indicators/65/locations/${loc.id}/start/2005/end/2005`);
-    const dta = await resp.json();
-    console.log(dta.data[0].value)
+    // to get net migration # indicator 65
+    const nmc = await fetch(`https://population.un.org/dataportalapi/api/v1/data/indicators/65/locations/${loc.id}/start/2020/end/2020`);
+    const dta = await nmc.json();
+    const netmigration = dta.data[0].value;
+    // console.log(dta.data[0].value)
+
+    // to get total pop (by sex) indicator 49
+    const totpop = await fetch(`https://population.un.org/dataportalapi/api/v1/data/indicators/49/locations/${loc.id}/start/2020/end/2020`);
+    const dta2 = await totpop.json();
+    //  male = idx 0, female = idx 1, both = idx 2
+    const totalpop = dta2.data[2].value;
+    const malepop = dta2.data[0].value;
+    const femalepop = dta2.data[1].value;
+
+    const populationchange = await fetch (`https://population.un.org/dataportalapi/api/v1/data/indicators/50/locations/${loc.id}/start/2020/end/2020`);
+    const dta3 = await populationchange.json();
+    const popchg = dta3.data[0].value;
+
+
+
+    const naturalpopchange = await fetch (`https://population.un.org/dataportalapi/api/v1/data/indicators/49/locations/${loc.id}/start/2020/end/2020`);
+    const dta4 = await naturalpopchange.json();
+    const natpopchg = dta4.data[0].value;
+    
+
+    console.log(`${(netmigration/totalpop * 100).toFixed(2)}%`);
+
+    document.getElementById('totpop').innerHTML='';
+    document.getElementById('totpop').append(totalpop);
+    document.getElementById('mpop').innerHTML='';
+    document.getElementById('mpop').append(malepop);
+    document.getElementById('fpop').innerHTML='';
+    document.getElementById('fpop').append(femalepop);
+    document.getElementById('popchange').innerHTML='';
+    document.getElementById('popchange').append(popchg);
+    document.getElementById('natpopchg').innerHTML='';
+    document.getElementById('natpopchg').append(natpopchg);
+    document.getElementById('netmigchg').innerHTML='';
+    document.getElementById('netmigchg').append(netmigration);
+
   }
 })
 
-document.body.appendChild(chart);
+document.getElementById('map').appendChild(chart);
 
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   // console.log("hello world")
-//   const root = document.
-//   querySelector('#root')
 
-//   new Example(root);
-// })
-
-// document.addEventListener('DOMContentLoaded', async () => {
-//   const mapDiv = document.getElementById('map');
-//   mapDiv.style.width = '50%';
-
-//   const res = await fetch(`https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json`)
-//   const mapJson = await res.json()
-//   const foo = map(mapJson)
-//   debugger
-
-//   mapDiv.appendChild(foo);
-// });
 

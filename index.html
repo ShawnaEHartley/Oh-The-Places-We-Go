@@ -11,5 +11,71 @@
     <title>Shawna's JSP</title>
   </head>
   <body>
+    <header>
+      <h1 id="title">Oh! The Places we go</h1>
+      <button>Reset Filters</button>
+    </header>
+
+    
+    <main>
+
+      <table id="readouts">
+        <thead>
+          <tr>
+            <th>Element</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Country</td>
+            <td id="country"></td>
+          </tr>
+          <tr>
+            <td>Continent</td>
+            <td id="continent"></td>
+          </tr>
+          <tr>
+            <td>Total Population</td>
+            <td id="totpop"></td>
+          </tr>
+          <tr>
+            <td>Male Population</td>
+            <td id="mpop"></td>
+          </tr>
+          <tr>
+            <td>Female Population</td>
+            <td id="fpop"></td>
+          </tr>
+          <tr>
+            <td>Population Change</td>
+            <td id="popchange"></td>
+          </tr>
+          <tr>
+            <td>Natural Population Change</td>
+            <td id="natpopchg"></td>
+          </tr>
+          <tr>
+            <td>Net Migration Change</td>
+            <td id="netmigchg"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="mapcontainer">
+        <div id="year">
+          <h3>This is the year selectors</h3>
+        </div>
+        <div id='map'>
+          <h3>This is where the Radio Buttons go</h3>
+        </div>
+      </div>
+
+
+    </main>
+      
+      <div id="bar">
+        <h3>This is where the radial stacked bar chart goes</h3>
+      </div>
   </body>
 </html>
