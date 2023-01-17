@@ -41,25 +41,48 @@ const chart = Choropleth(hale, {
 
 
 
-    const naturalpopchange = await fetch (`https://population.un.org/dataportalapi/api/v1/data/indicators/49/locations/${loc.id}/start/2020/end/2020`);
+    const naturalpopchange = await fetch (`https://population.un.org/dataportalapi/api/v1/data/indicators/52/locations/${loc.id}/start/2020/end/2020`);
     const dta4 = await naturalpopchange.json();
     const natpopchg = dta4.data[0].value;
     
 
     console.log(`${(netmigration/totalpop * 100).toFixed(2)}%`);
 
+    document.getElementById('country').innerHTML='';
+    document.getElementById('country').append(loc.name)
+
     document.getElementById('totpop').innerHTML='';
     document.getElementById('totpop').append(totalpop);
+
     document.getElementById('mpop').innerHTML='';
     document.getElementById('mpop').append(malepop);
+
+    document.getElementById('percmpop').innerHTML='';
+    document.getElementById('percmpop').append(`${(malepop/totalpop * 100).toFixed(2)}%`);
+
     document.getElementById('fpop').innerHTML='';
     document.getElementById('fpop').append(femalepop);
+
+    document.getElementById('percfpop').innerHTML='';
+    document.getElementById('percfpop').append(`${(femalepop/totalpop * 100).toFixed(2)}%`);
+
     document.getElementById('popchange').innerHTML='';
     document.getElementById('popchange').append(popchg);
+
+    document.getElementById('percpopchange').innerHTML='';
+    document.getElementById('percpopchange').append(`${(popchg/totalpop * 100).toFixed(2)}%`);
+
     document.getElementById('natpopchg').innerHTML='';
     document.getElementById('natpopchg').append(natpopchg);
+
+    document.getElementById('percnatpopchg').innerHTML='';
+    document.getElementById('percnatpopchg').append(`${(natpopchg/popchg * 100).toFixed(2)}%`);
+
     document.getElementById('netmigchg').innerHTML='';
     document.getElementById('netmigchg').append(netmigration);
+
+    document.getElementById('percnetmigchg').innerHTML='';
+    document.getElementById('percnetmigchg').append(`${(netmigration/popchg * 100).toFixed(2)}%`);
 
   }
 })

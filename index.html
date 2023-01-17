@@ -18,64 +18,84 @@
 
     
     <main>
+      <section class="datareadouts">
+        <ul id="data">
+          Country
+          <li id="country"></li>
+          Total Population
+          <li id="totpop"></li>
+          Male Population
+          <li id="mpop"></li>
+          <li id="percmpop"></li>
+          Female Population
+          <li id="fpop"></li>
+          <li id="percfpop"></li>
+          Population Change
+          <li id="popchange"></li>
+          <li id="percpopchange"></li>
+          Natural Population Change*
+          <li id="natpopchg"></li>
+          <li id="percnatpopchg"></li>
+          Net Migration Change*
+          <li id="netmigchg"></li>
+          <li id="percnetmigchg"></li>
+          * % of total population change
+        </ul>
+      </section>
 
-      <table id="readouts">
-        <thead>
-          <tr>
-            <th>Element</th>
-            <th>Value</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Country</td>
-            <td id="country"></td>
-          </tr>
-          <tr>
-            <td>Continent</td>
-            <td id="continent"></td>
-          </tr>
-          <tr>
-            <td>Total Population</td>
-            <td id="totpop"></td>
-          </tr>
-          <tr>
-            <td>Male Population</td>
-            <td id="mpop"></td>
-          </tr>
-          <tr>
-            <td>Female Population</td>
-            <td id="fpop"></td>
-          </tr>
-          <tr>
-            <td>Population Change</td>
-            <td id="popchange"></td>
-          </tr>
-          <tr>
-            <td>Natural Population Change</td>
-            <td id="natpopchg"></td>
-          </tr>
-          <tr>
-            <td>Net Migration Change</td>
-            <td id="netmigchg"></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class="mapcontainer">
-        <div id="year">
-          <h3>This is the year selectors</h3>
+      <container class="mapcontainer">
+        <div id="years">
+          <button id="2000">2000</button>
+          <button id="2001">2001</button>
+          <button>2002</button>
+          <button>2003</button>
+          <button>2004</button>
+          <button>2005</button>
+          <button>2006</button>
+          <button>2007</button>
+          <button>2008</button>
+          <button>2009</button>
+          <button>2010</button>
+          <button>2011</button>
+          <button>2012</button>
+          <button>2013</button>
+          <button>2014</button>
+          <button>2015</button>
+          <button>2016</button>
+          <button>2017</button>
+          <button>2018</button>
+          <button>2019</button>
+          <button>2020</button>
+          <button>2021</button>
+          <button>2022</button>
         </div>
-        <div id='map'>
-          <h3>This is where the Radio Buttons go</h3>
+        <section id="mapradio">
+          <div id='selectors'>
+            <label for="">
+              <input type="radio" id="popchg" value="Population Change">
+              Population Change
+            </label>
+            <br>
+            <label for="">
+              <input type="radio" id="popchg" value="Population Change">
+              Natual Population Change
+            </label>
+            <br>
+            <label for="">
+              <input type="radio" id="popchg" value="Population Change">
+              Net Migration Change
+            </label>
+            
+          </div>
+          <div id="map"></div>
+        </section>
+        
+        <div id="bar">
+          <h3>radial stacked bar chart</h3>
         </div>
-      </div>
-
-
+      </container>
+        
     </main>
       
-      <div id="bar">
-        <h3>This is where the radial stacked bar chart goes</h3>
-      </div>
   </body>
 </html>

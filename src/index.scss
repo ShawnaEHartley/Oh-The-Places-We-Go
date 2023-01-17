@@ -14,20 +14,26 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 50px;
+}
+
+#data > li {
+  padding-left: 50px;
 }
 
 .mapcontainer {
   margin-left: 10px;
 }
 
+#mapradio {
+  display: flex;
+}
+
 #map {
   display: flex;
   justify-content: space-between;
+  width: 900px;
 }
 
 #bar {
   text-align: right;
-  margin-left: 50px;
-  margin-right: 50px;
 }
