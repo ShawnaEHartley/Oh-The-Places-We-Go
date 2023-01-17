@@ -8,91 +8,61 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
     <script src="./dist/main.js" defer ></script>
+    <link rel="icon" sizes="180x180" href="./styles/icons8-earth-globe-16.png">
     <title>Shawna's JSP</title>
   </head>
   <body>
     <header>
-      <h1 id="title">Oh! The Places we go</h1>
-      <button>Reset Filters</button>
+      <h1 id="title">Oh! The Places We Go</h1>
     </header>
 
     
     <main>
-      <section class="datareadouts">
-        <ul id="data">
-          Country
-          <li id="country"></li>
-          Total Population
-          <li id="totpop"></li>
-          Male Population
-          <li id="mpop"></li>
-          <li id="percmpop"></li>
-          Female Population
-          <li id="fpop"></li>
-          <li id="percfpop"></li>
-          Population Change
-          <li id="popchange"></li>
-          <li id="percpopchange"></li>
-          Natural Population Change*
-          <li id="natpopchg"></li>
-          <li id="percnatpopchg"></li>
-          Net Migration Change*
-          <li id="netmigchg"></li>
-          <li id="percnetmigchg"></li>
-          * % of total population change
+      <section class="tablecontainer">
+        <ul class="resp-table">
+          <li class="th">Country</li>
+          <li class="fill" id="country"></li>
+          <li class="th">Total Population</li>
+          <li class="fill" id="totpop"></li>
+          <li class="th">Male Population</li>
+          <li class="fill" id="mpop"></li>
+          <li class="fill" id="percmpop"></li>
+          <li class="th">Female Population</li>
+          <li class="fill" id="fpop"></li>
+          <li class="fill" id="percfpop"></li>
+          <li class="th">Population Change</li>
+          <li class="fill" id="popchange"></li>
+          <li class="fill" id="percpopchange"></li>
+          <li class="th">Natural Population Change *</li>
+          <li class="fill" id="natpopchg"></li>
+          <li class="fill" id="percnatpopchg"></li>
+          <li class="th">Net Migration Change *</li>
+          <li class="fill" id="netmigchg"></li>
+          <li class="fill" id="percnetmigchg"></li>
+          <small> * % of total change</small>
         </ul>
       </section>
 
       <container class="mapcontainer">
-        <div id="years">
-          <button id="2000">2000</button>
-          <button id="2001">2001</button>
-          <button>2002</button>
-          <button>2003</button>
-          <button>2004</button>
-          <button>2005</button>
-          <button>2006</button>
-          <button>2007</button>
-          <button>2008</button>
-          <button>2009</button>
-          <button>2010</button>
-          <button>2011</button>
-          <button>2012</button>
-          <button>2013</button>
-          <button>2014</button>
-          <button>2015</button>
-          <button>2016</button>
-          <button>2017</button>
-          <button>2018</button>
-          <button>2019</button>
-          <button>2020</button>
-          <button>2021</button>
-          <button>2022</button>
-        </div>
         <section id="mapradio">
           <div id='selectors'>
             <label for="">
               <input type="radio" id="popchg" value="Population Change">
               Population Change
             </label>
-            <br>
             <label for="">
               <input type="radio" id="popchg" value="Population Change">
-              Natual Population Change
+              Natural Population Change
             </label>
-            <br>
             <label for="">
               <input type="radio" id="popchg" value="Population Change">
               Net Migration Change
             </label>
             
-          </div>
-          <div id="map"></div>
-        </section>
-        
-        <div id="bar">
-          <h3>radial stacked bar chart</h3>
+          </section>
         </div>
+        <div id="map"></div>
+        
       </container>
         
     </main>

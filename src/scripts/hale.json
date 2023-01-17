@@ -20,7 +20,7 @@
         "hale": 55.8
     },
     {
-        "name": "Antigua and Barb.",
+        "name": "Antigua and Barbuda",
         "hale": 67
     },
     {
@@ -80,11 +80,11 @@
         "hale": 60.7
     },
     {
-        "name": "Bolivia",
+        "name": "Bolivia (Plurinational State of)",
         "hale": 63
     },
     {
-        "name": "Bosnia and Herz.",
+        "name": "Bosnia and Herzegovina",
         "hale": 67.2
     },
     {
@@ -96,7 +96,7 @@
         "hale": 66
     },
     {
-        "name": "Brunei",
+        "name": "Brunei Darussalam",
         "hale": 67.9
     },
     {
@@ -128,7 +128,7 @@
         "hale": 73.2
     },
     {
-        "name": "Central African Rep.",
+        "name": "Central African Republic",
         "hale": 44.9
     },
     {
@@ -156,7 +156,7 @@
         "hale": 56.7
     },
     {
-        "name": "Cook Is.",
+        "name": "Cook Islands",
         "hale": null
     },
     {
@@ -184,11 +184,11 @@
         "hale": 69.3
     },
     {
-        "name": "North Korea",
+        "name": "Dem. People's Rep. of Korea",
         "hale": 64.6
     },
     {
-        "name": "Dem. Rep. Congo",
+        "name": "Dem. Rep. of the Congo",
         "hale": 52.5
     },
     {
@@ -204,7 +204,7 @@
         "hale": null
     },
     {
-        "name": "Dominican Rep.",
+        "name": "Dominican Republic",
         "hale": 65.2
     },
     {
@@ -220,7 +220,7 @@
         "hale": 65.5
     },
     {
-        "name": "Eq. Guinea",
+        "name": "Equatorial Guinea",
         "hale": 53.8
     },
     {
@@ -316,7 +316,7 @@
         "hale": 61.7
     },
     {
-        "name": "Iran",
+        "name": "Iran (Islamic Republic of)",
         "hale": 65.4
     },
     {
@@ -368,7 +368,7 @@
         "hale": 63.5
     },
     {
-        "name": "Laos",
+        "name": "Lao People's Dem. Republic",
         "hale": 57.9
     },
     {
@@ -424,7 +424,7 @@
         "hale": 72.2
     },
     {
-        "name": "Marshall Is.",
+        "name": "Marshall Islands",
         "hale": null
     },
     {
@@ -552,11 +552,11 @@
         "hale": 68.6
     },
     {
-        "name": "South Korea",
+        "name": "Republic of Korea",
         "hale": 73
     },
     {
-        "name": "Moldova",
+        "name": "Republic of Moldova",
         "hale": 63.6
     },
     {
@@ -564,7 +564,7 @@
         "hale": 66.6
     },
     {
-        "name": "Russia",
+        "name": "Russian Federation",
         "hale": 63.5
     },
     {
@@ -572,7 +572,7 @@
         "hale": 59.9
     },
     {
-        "name": "St. Kitts and Nevis",
+        "name": "Saint Kitts and Nevis",
         "hale": null
     },
     {
@@ -580,7 +580,7 @@
         "hale": 66.4
     },
     {
-        "name": "St. Vin. and Gren.",
+        "name": "Saint Vincent and the Grenadines",
         "hale": 63.4
     },
     {
@@ -640,7 +640,7 @@
         "hale": 55.7
     },
     {
-        "name": "S. Sudan",
+        "name": "South Sudan",
         "hale": 50.6
     },
     {
@@ -660,7 +660,7 @@
         "hale": 63.2
     },
     {
-        "name": "eSwatini",
+        "name": "Eswatini",
         "hale": 50.2
     },
     {
@@ -672,7 +672,7 @@
         "hale": 73.5
     },
     {
-        "name": "Syria",
+        "name": "Syrian Arab Republic",
         "hale": 55.8
     },
     {
@@ -684,7 +684,7 @@
         "hale": 66.8
     },
     {
-        "name": "Macedonia",
+        "name": "North Macedonia",
         "hale": 67.1
     },
     {
@@ -708,7 +708,7 @@
         "hale": 66.3
     },
     {
-        "name": "Turkey",
+        "name": "Türkiye",
         "hale": 66
     },
     {
@@ -736,7 +736,7 @@
         "hale": 71.9
     },
     {
-        "name": "Tanzania",
+        "name": "United Republic of Tanzania",
         "hale": 56.5
     },
     {
@@ -756,11 +756,11 @@
         "hale": 62.7
     },
     {
-        "name": "Venezuela",
+        "name": "Venezuela (Bolivarian Republic of)",
         "hale": 66.1
     },
     {
-        "name": "Vietnam",
+        "name": "Viet Nam",
         "hale": 67.5
     },
     {

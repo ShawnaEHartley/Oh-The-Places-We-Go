@@ -1,10 +1,23 @@
-.country:hover {
-  fill: red;
+@import url('../styles/reset.scss');
+
+body {
+  background-color: #baa58672;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
-div {
-  border: 1px solid #000000;
+
+#title {
+  font-weight: bold;
+  font-size: 30;
+  color: #736849;
+  padding-left: 20px;
+  margin-top: 20px;
 }
+
+.country:hover {
+  fill: black;
+}
+
 
 header {
   display: flex;
@@ -14,26 +27,52 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 50px;
 }
 
-#data > li {
+.data {
   padding-left: 50px;
 }
 
+
+.resp-table {
+  padding-left: 5px;
+  li {
+    border-radius: 3px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    height: 15px;
+  }
+  .th {
+    background-color: #fadeb46f;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .fill {
+    background-color: #ffffff;
+    // box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+  
+}
+
+
 .mapcontainer {
   margin-left: 10px;
+  width: 70%;
 }
 
 #mapradio {
-  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 #map {
   display: flex;
   justify-content: space-between;
-  width: 900px;
-}
-
-#bar {
-  text-align: right;
+  margin-top: 50 px;
 }
