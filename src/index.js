@@ -79,13 +79,15 @@ const chart = Choropleth(hale, {
     document.getElementById('natpopchg').append(natpopchg);
 
     document.getElementById('percnatpopchg').innerHTML='';
-    document.getElementById('percnatpopchg').append(`${(natpopchg/popchg * 100).toFixed(2)}%`);
+    document.getElementById('percnatchg').append(`${(natpopchg/totalpop *100).toFixed(2)}%`);
+    document.getElementById('percnatpopchg').append(`${(natpopchg/popchg * 100).toFixed(2)}% *`);
 
     document.getElementById('netmigchg').innerHTML='';
     document.getElementById('netmigchg').append(netmigration);
 
     document.getElementById('percnetmigchg').innerHTML='';
-    document.getElementById('percnetmigchg').append(`${(netmigration/popchg * 100).toFixed(2)}%`);
+    document.getElementById('percnetmigchg').append(`${(netmigration/totalpop *100).toFixed(2)}%`);
+    document.getElementById('percmigchg').append(`${(netmigration/popchg * 100).toFixed(2)}% *`);
 
   }
 })

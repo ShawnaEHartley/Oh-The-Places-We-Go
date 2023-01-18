@@ -10,7 +10,7 @@ body {
 #title {
   font-weight: bold;
   font-size: 30;
-  color: #6f6446;
+  color: #7A6D58;
   padding-left: 20px;
   margin-top: 20px;
 }
@@ -31,6 +31,11 @@ main {
   padding-top: 50px;
 }
 
+.footer {
+  text-align: center;
+  font-size: 10px;
+}
+
 .data {
   padding-left: 50px;
 }
@@ -45,6 +50,10 @@ main {
     justify-content: space-between;
     margin-bottom: 5px;
     height: 15px;
+  }
+  .dropdown {
+    background-color: #7A6D58;
+    color: white;
   }
   .th {
     background-color: #fadeb46f;
@@ -76,4 +85,10 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 50 px;
+}
+
+.userinfo {
+  margin-top: 50px;
+  background-color: #E0C7A2;
+  text-align: center;
 }
