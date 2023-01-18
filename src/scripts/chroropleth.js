@@ -84,7 +84,6 @@ function Choropleth(data, {
     .data(features.features)
     .join("path")
     .attr("fill", (d, i) => {
-      debugger
       // d is the country object (.properties.name)
       const country = countryvalue.find((c) => c.name === d.properties.name)
       if (!country) {
