@@ -19,8 +19,26 @@
     
     <main>
       <section class="tablecontainer">
-        <ul class="resp-table">
-          <li class="dropdown">Select Year</li>
+        <nav>
+          <label for="touch"><span>Year</span></label>
+          <input type="checkbox" id="touch">
+          <ul class="slide">
+            <li><a id="2022" href="#">2022</a></li>
+            <li><a href="#">2021</a></li>
+            <li><a href="#">2020</a></li>
+            <li><a href="#">2019</a></li>
+            <li><a href="#">2018</a></li>
+            <li><a href="#">2017</a></li>
+            <li><a href="#">2016</a></li>
+            <li><a href="#">2015</a></li>
+            <li><a href="#">2014</a></li>
+            <li><a href="#">2013</a></li>
+            <li><a href="#">2012</a></li>
+            <li><a href="#">2011</a></li>
+            <li><a href="#">2010</a></li>
+          </ul>
+        </nav>
+          <ul class="resp-table">
           <li class="th">Country</li>
           <li class="fill" id="country"></li>
           <li class="th">Total Population</li>
@@ -49,26 +67,21 @@
       <container class="mapcontainer">
         <section id="mapradio">
           <div id='selectors'>
-            <label for="">
-              <input type="radio" id="popchg" value="Population Change">
-              Population Change
-            </label>
-            <label for="">
-              <input type="radio" id="popchg" value="Population Change">
-              Natural Population Change
-            </label>
-            <label for="">
-              <input type="radio" id="popchg" value="Population Change">
-              Net Migration Change
-            </label>
+            <form action="">
+              <label for="">
+                <button id="popchangerad"> Population Change</button>
+                <button id="natpopchangerad"> Natural Population Change</button>
+                <button id="migpopchangerad"> Net Migration Change</button>
+              </label>
+            </form>
             
-          </section>
-        </div>
+          </div>
+        </section>
         <div id="map"></div>
         <p class="footer">All Mapped Results are CY 2021</p>
-        <p class="footer">© D3</p>
+        <p class="footer">© D3 Choropleth, 2021 Observable, Inc.</p>
         <section class="userinfo">
-          <p>Thank you for visiting 'Oh! The Places We Go.</p>
+          <p>Thank you for visiting 'Oh! The Places We Go</p>
           <p>User Information coming soon</p>
         </section>
       </container>

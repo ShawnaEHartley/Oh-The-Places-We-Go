@@ -58,6 +58,67 @@ body {
   color: #736849;
 }
 
+button {
+  background-color: #7c7c53;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: #736849;
+}
+
+nav {
+  background: black;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+span {
+  padding: 10px;
+  background: #7A6D58;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  display: block;
+  border-radius: 3px;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear: both;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height 0.4s ease;
+}
+
+.slide li {
+  padding: 3px;
+}
+
+#touch {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch:checked + .slide {
+  height: 200px;
+}
+
 #title {
   font-weight: bold;
   font-size: 30;
@@ -78,7 +139,7 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .footer {
@@ -99,7 +160,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
-  height: 15px;
+  height: 12px;
 }
 .resp-table .dropdown {
   background-color: #7A6D58;
