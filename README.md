@@ -3,10 +3,13 @@
 <section>
 <h3>Background:</h3>
 <div>
-Have you ever wondered the impact of net migration on a country’s population? This visual will provide a thorough map representation of the % net migration vs total population by year of each country. There will be factor toggle switches for total population change, net migration’s impact, and natural migration change (live births/deaths) all provided by the UN population API. 
+Have you ever wondered the impact of net migration on a country’s population? This visual provides a thorough map representation of the % net migration vs total population of each country. There are factor buttons to switch the map graphic to total population change or net migration, all provided by the UN population API. 
 </div>
 <div>
-This will include a color style graphic per country to indicate growth/decline due to the factor chosen and a timeline in which you can see multiple years or year by year. It will pull the updated data per request for each click the user chooses. 
+This includes a color style graphic per country to indicate growth/decline due to the factor chosen. It pulls the updated data per request for each click the user chooses. 
+</div>
+<div>
+There is a table readout of key data points that will update with a year selector and for each country selected via the map.
 </div>
 <div>
 Future possibilities are layering in correlations to migration like GDP, eco-friendly/green score, # hospitals per capita, avg # paid vacation days per year. This would be a great future passion project to continue to build and layer for years to come. 
@@ -20,15 +23,11 @@ Future possibilities are layering in correlations to migration like GDP, eco-fri
 <div>
 In ‘Oh! The Places We Go,’ users will be able to:
 	<ul>
-		<li>Modal for about the page/data source and basic instructions on how to navigate</li>
-		<li>Top banner with name, and general navigation buttons, also a re-pop-up of bullet 1</li>
-		<li>Timeline with multi-check option to filter all visuals to a year or range</li>
 		<li>Side bar that updates with country selection with total ## data output</li>
-		<li>Map – Interactive colors (red for decreasing, green for increasing by country shading)</li>
-		<li>Map – Zoomable</li>
+		<li>Year selector dropdown for side bar statistics</li>
+		<li>Map – Interactive colors (red/brown for decreasing, green for increasing by country shading)</li>
 		<li>Map - Factor selectors (radio buttons for the 3 factors in this phase)</li>
-		<li>Bar Graph showing total population metrics for all countries</li>
-		<li>Upon click on either the map or bar graph all visuals update to select only that country information</li>
+		<li>Upon clicking the country on the map all visuals update to select only that country information</li>
 	</ul>
 </div>
 </section>
@@ -37,15 +36,16 @@ In ‘Oh! The Places We Go,’ users will be able to:
 
 <section>
 <h3>Wireframe:</h3>
-![Oh! The Places We Go Wireframe](./assets/images/wireframe.png)
+    <img src="./assets/images/wireframe.png">
 </section>
 
 <section>
 <h3>Design Plan: </h3>
-![Oh! The Places We Go Design Plan](./assets/images/design.png)
+<img src="./assets/images/design.png">
 </section>
 
 </br>
+
 <section>
 <h3>Technologies, Libraries, APIs:</h3>
 <div>This project is implemented with the following technologies:
@@ -57,6 +57,31 @@ In ‘Oh! The Places We Go,’ users will be able to:
 		<li>Npm</li>
 		<li>Asana Project Manager Suite</li> <p>https://app.asana.com/0/1203716781295644/board</p>
 	</ul>
+</div>
+</section>
+
+</br>
+
+<section>
+<h3>Technical Implementation with Code Snippets:</h3>
+<div>
+<p></p>
+<p></p>
+</div>
+</section>
+
+</br>
+
+<section>
+<h3>Future Features:</h3>
+<div>
+<ul>
+<li>3D map graphic</li>
+<li>map animation</li>
+<li>multi-year selection option for range</li>
+<li>user information in modal</li>
+<li>additional factors - influences on migration</li>
+</ul>
 </div>
 </section>
 
@@ -82,7 +107,7 @@ In ‘Oh! The Places We Go,’ users will be able to:
 		<li>Ensure smooth transitions with factor selectors</li>
 		<li>Integration Tests</li>
 	<h4>Thursday: </h4>
-		<li>Final testing and deploy to GitHub</li
+		<li>Final testing and deploy to GitHub</li>
 </ul>
 </section>
 
