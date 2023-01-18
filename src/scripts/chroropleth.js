@@ -19,7 +19,7 @@ function Choropleth(data, {
   borders, // a GeoJSON object for stroking borders
   outline = projection && projection.rotate ? {type: "Sphere"} : null, // a GeoJSON object for the background
   unknown = "#ccc", // fill color for missing data
-  fill = "#6B9DB6", // fill color for outline
+  fill = "#ABB5C6", // fill color for outline
   stroke = "#1C3D59", // stroke color for borders
   strokeLinecap = "round", // stroke line cap for borders
   strokeLinejoin = "round", // stroke line join for borders

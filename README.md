@@ -37,12 +37,12 @@ In ‘Oh! The Places We Go,’ users will be able to:
 
 <section>
 <h3>Wireframe:</h3>
-![Oh! The Places We Go Wireframe](./assets/wireframe.png)
+![Oh! The Places We Go Wireframe](./assets/images/wireframe.png)
 </section>
 
 <section>
 <h3>Design Plan: </h3>
-![Oh! The Places We Go Design Plan](./assets/design.png)
+![Oh! The Places We Go Design Plan](./assets/images/design.png)
 </section>
 
 </br>

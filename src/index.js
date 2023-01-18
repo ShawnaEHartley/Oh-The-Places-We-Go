@@ -8,8 +8,8 @@ import popchange from '../assets/countryAllIndicators/listofpopchange.json'
 import natpopchange from '../assets/countryAllIndicators/listofnatpopchange.json'
 import migpopchange from '../assets/countryAllIndicators/listofmigrationpopchange.json'
 
-  let radiostatus = migpopchange;
 
+let radiostatus = migpopchange;
   const radiopopulationchange = document.getElementById("popchangerad");
   const radionaturalpopulationchange = document.getElementById("natpopchangerad");
   const radiomigrationpopulationchange = document.getElementById("migpopchangerad");
@@ -18,18 +18,21 @@ import migpopchange from '../assets/countryAllIndicators/listofmigrationpopchang
     e.preventDefault();
     radiostatus = popchange;
     // delete the div
-    document.getElementById(map).innerHTML={}
+    document.getElementById("map").innerHTML="";
     // repopulate the div
     runpopulationchange();
   });
-  // radionaturalpopulationchange.addEventListener("click", (e) => {
-  //   e.preventDefault();
-    
-  // });
-  // radiomigrationpopulationchange.addEventListener("click", (e) => {
-  //   e.preventDefault();
-    
-  // });
+
+  radiomigrationpopulationchange.addEventListener("click", (e) => {
+    e.preventDefault();
+    radiostatus = migpopchange;
+    // delete the div
+    document.getElementById("map").innerHTML="";
+    // repopulate the div
+    runpopulationchange();
+  });
+
+
 function runpopulationchange() {
 const countries = topojson.feature(world, world.objects.countries);
 let chart = Choropleth(hale, {
@@ -94,14 +97,6 @@ let chart = Choropleth(hale, {
     document.getElementById('percpopchange').innerHTML='';
     document.getElementById('percpopchange').append(`${(popchg/totalpop * 100).toFixed(2)}%`);
 
-    document.getElementById('natpopchg').innerHTML='';
-    document.getElementById('natpopchg').append(natpopchg);
-
-    document.getElementById('percnatchg').innerHTML='';
-    document.getElementById('percnatchg').append(`${(natpopchg/totalpop *100).toFixed(2)}%`);
-    document.getElementById('percnatpopchg').innerHTML='';
-    document.getElementById('percnatpopchg').append(`${(natpopchg/popchg * 100).toFixed(2)}% *`);
-
     document.getElementById('netmigchg').innerHTML='';
     document.getElementById('netmigchg').append(netmigration);
 
@@ -110,10 +105,18 @@ let chart = Choropleth(hale, {
     document.getElementById('percmigchg').innerHTML='';
     document.getElementById('percmigchg').append(`${(netmigration/popchg * 100).toFixed(2)}% *`);
 
+    // document.getElementById('natpopchg').innerHTML='';
+    // document.getElementById('natpopchg').append(natpopchg);
+
+    // document.getElementById('percnatchg').innerHTML='';
+    // document.getElementById('percnatchg').append(`${(natpopchg/totalpop *100).toFixed(2)}%`);
+    // document.getElementById('percnatpopchg').innerHTML='';
+    // document.getElementById('percnatpopchg').append(`${(natpopchg/popchg * 100).toFixed(2)}% *`);
+
   }
 })
 
-document.getElementById('map').appendChild(chart)}
+document.getElementById("map").appendChild(chart)}
 runpopulationchange();
 
 
