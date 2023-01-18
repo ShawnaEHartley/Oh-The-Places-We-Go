@@ -3,7 +3,8 @@ import hale from './scripts/hale.json'
 import world from './scripts/world.json'
 import countrymesh from './scripts/countrymesh.json'
 import locations from './scripts/locations.json'
-
+import migbuck from '../assets/countryAllIndicators/migrationbuckets.json'
+import migpopchange from '../assets/countryAllIndicators/listofmigrationpopchange.json'
 
 const countries = topojson.feature(world, world.objects.countries);
 const chart = Choropleth(hale, {
@@ -15,6 +16,8 @@ const chart = Choropleth(hale, {
   borders: countrymesh,
   projection: d3.geoEqualEarth(),
   title: (_, d) => d ? d.name : '',
+  colorbuckets: migbuck,
+  countryvalue: migpopchange,
   cb: async (_, i) => {
     let loc = locations.data.find((loc) => {
       return loc.name === i.properties.name

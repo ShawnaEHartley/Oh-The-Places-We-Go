@@ -19,12 +19,14 @@ function Choropleth(data, {
   borders, // a GeoJSON object for stroking borders
   outline = projection && projection.rotate ? {type: "Sphere"} : null, // a GeoJSON object for the background
   unknown = "#ccc", // fill color for missing data
-  fill = "white", // fill color for outline
-  stroke = "white", // stroke color for borders
+  fill = "#6B9DB6", // fill color for outline
+  stroke = "#1C3D59", // stroke color for borders
   strokeLinecap = "round", // stroke line cap for borders
   strokeLinejoin = "round", // stroke line join for borders
   strokeWidth, // stroke width for borders
   strokeOpacity, // stroke opacity for borders
+  colorbuckets = [],
+  countryvalue = [],
   cb = () => {},
 } = {}) {
   // Compute values.
@@ -81,7 +83,16 @@ function Choropleth(data, {
     .selectAll("path")
     .data(features.features)
     .join("path")
-    .attr("fill", (d, i) => color(V[Im.get(If[i])]))
+    .attr("fill", (d, i) => {
+      debugger
+      // d is the country object (.properties.name)
+      const country = countryvalue.find((c) => c.name === d.properties.name)
+      if (!country) {
+        return '#000000';
+      } 
+      const bucket = colorbuckets.find((v) => country.percpopchange > v.min && country.percpopchange <= v.max)
+      return bucket.color
+    })
     .attr("d", path)
     .attr('class', 'country')
     .append("title")

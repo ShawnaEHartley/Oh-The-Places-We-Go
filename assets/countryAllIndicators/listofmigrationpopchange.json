@@ -1,0 +1,1699 @@
+[
+    {
+        "name": "Afghanistan",
+        "totalpop": 20254878,
+        "popchange": -183672,
+        "percpopchange": -0.906803783266431
+    },
+    {
+        "name": "Albania",
+        "totalpop": 1425955,
+        "popchange": -10612,
+        "percpopchange": -0.7442030078088019
+    },
+    {
+        "name": "Algeria",
+        "totalpop": 22497244,
+        "popchange": -18797,
+        "percpopchange": -0.08355245646977914
+    },
+    {
+        "name": "American Samoa",
+        "totalpop": 22289,
+        "popchange": -1646,
+        "percpopchange": -7.38480865000673
+    },
+    {
+        "name": "Andorra",
+        "totalpop": 40361,
+        "popchange": 1377,
+        "percpopchange": 3.4117093233567055
+    },
+    {
+        "name": "Angola",
+        "totalpop": 17051491,
+        "popchange": 29089,
+        "percpopchange": 0.17059505236228317
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "totalpop": 44511,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Azerbaijan",
+        "totalpop": 5089228,
+        "popchange": 1084,
+        "percpopchange": 0.021299890671040874
+    },
+    {
+        "name": "Argentina",
+        "totalpop": 22414842,
+        "popchange": 2344,
+        "percpopchange": 0.010457356781725251
+    },
+    {
+        "name": "Australia",
+        "totalpop": 12867748,
+        "popchange": 117929,
+        "percpopchange": 0.9164696106886768
+    },
+    {
+        "name": "Austria",
+        "totalpop": 4391110,
+        "popchange": 20314,
+        "percpopchange": 0.46261651381996804
+    },
+    {
+        "name": "Bahamas",
+        "totalpop": 195028,
+        "popchange": 485,
+        "percpopchange": 0.24868224049880017
+    },
+    {
+        "name": "Bahrain",
+        "totalpop": 908650,
+        "popchange": -9150,
+        "percpopchange": -1.0069883893688438
+    },
+    {
+        "name": "Bangladesh",
+        "totalpop": 83998088,
+        "popchange": -174500,
+        "percpopchange": -0.2077428238604669
+    },
+    {
+        "name": "Armenia",
+        "totalpop": 1256499,
+        "popchange": -12825,
+        "percpopchange": -1.0206932118529344
+    },
+    {
+        "name": "Barbados",
+        "totalpop": 134834,
+        "popchange": -28,
+        "percpopchange": -0.020766275568476794
+    },
+    {
+        "name": "Belgium",
+        "totalpop": 5734845,
+        "popchange": 52356,
+        "percpopchange": 0.9129453367963737
+    },
+    {
+        "name": "Bermuda",
+        "totalpop": 30962,
+        "popchange": 291,
+        "percpopchange": 0.9398617660357859
+    },
+    {
+        "name": "Bhutan",
+        "totalpop": 411668,
+        "popchange": 291,
+        "percpopchange": 0.0706880301602262
+    },
+    {
+        "name": "Bolivia (Plurinational State of)",
+        "totalpop": 6058547,
+        "popchange": -4666,
+        "percpopchange": -0.07701516551740871
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "totalpop": 1610168,
+        "popchange": -25865,
+        "percpopchange": -1.6063541195701316
+    },
+    {
+        "name": "Botswana",
+        "totalpop": 1277735,
+        "popchange": 1816,
+        "percpopchange": 0.14212649727838714
+    },
+    {
+        "name": "Brazil",
+        "totalpop": 105291292,
+        "popchange": 20376,
+        "percpopchange": 0.019352027706146867
+    },
+    {
+        "name": "Belize",
+        "totalpop": 201231,
+        "popchange": 577,
+        "percpopchange": 0.2867351451814084
+    },
+    {
+        "totalpop": 361683,
+        "popchange": -808,
+        "percpopchange": -0.2234000492143673
+    },
+    {
+        "name": "British Virgin Islands",
+        "totalpop": 14976,
+        "popchange": 128,
+        "percpopchange": 0.8547008547008548
+    },
+    {
+        "name": "Brunei Darussalam",
+        "totalpop": 230451,
+        "popchange": -192,
+        "percpopchange": -0.08331489123501308
+    },
+    {
+        "name": "Bulgaria",
+        "totalpop": 3339354,
+        "popchange": -8716,
+        "percpopchange": -0.2610085663274993
+    },
+    {
+        "name": "Myanmar",
+        "totalpop": 26782671,
+        "popchange": -35382,
+        "percpopchange": -0.13210780956089105
+    },
+    {
+        "name": "Burundi",
+        "totalpop": 6231786,
+        "popchange": -14415,
+        "percpopchange": -0.23131410481682135
+    },
+    {
+        "name": "Belarus",
+        "totalpop": 4415004,
+        "popchange": 12961,
+        "percpopchange": 0.293567117945986
+    },
+    {
+        "name": "Cambodia",
+        "totalpop": 8212068,
+        "popchange": -24262,
+        "percpopchange": -0.29544324279828177
+    },
+    {
+        "name": "Cameroon",
+        "totalpop": 13564232,
+        "popchange": -9889,
+        "percpopchange": -0.07290497537936537
+    },
+    {
+        "name": "Canada",
+        "totalpop": 18960006,
+        "popchange": 195181,
+        "percpopchange": 1.0294353282377653
+    },
+    {
+        "name": "Cabo Verde",
+        "totalpop": 292344,
+        "popchange": -1274,
+        "percpopchange": -0.43578797580932055
+    },
+    {
+        "name": "Cayman Islands",
+        "totalpop": 34398,
+        "popchange": 276,
+        "percpopchange": 0.8023722309436595
+    },
+    {
+        "name": "Central African Republic",
+        "totalpop": 2728280,
+        "popchange": -85860,
+        "percpopchange": -3.1470376940783202
+    },
+    {
+        "name": "Sri Lanka",
+        "totalpop": 10490093,
+        "popchange": -92400,
+        "percpopchange": -0.8808310851009615
+    },
+    {
+        "name": "Chad",
+        "totalpop": 8623530,
+        "popchange": 9016,
+        "percpopchange": 0.10455115248627883
+    },
+    {
+        "name": "Chile",
+        "totalpop": 9675021,
+        "popchange": 113709,
+        "percpopchange": 1.1752842707008078
+    },
+    {
+        "name": "China",
+        "totalpop": 728050458,
+        "popchange": -200194,
+        "percpopchange": -0.027497269976307054
+    },
+    {
+        "name": "China, Taiwan Province of China",
+        "totalpop": 11820769,
+        "popchange": 26393,
+        "percpopchange": 0.2232765059532083
+    },
+    {
+        "name": "Colombia",
+        "totalpop": 25415242,
+        "popchange": 211978,
+        "percpopchange": 0.8340585543116212
+    },
+    {
+        "name": "Comoros",
+        "totalpop": 412703,
+        "popchange": -1772,
+        "percpopchange": -0.4293644582181375
+    },
+    {
+        "name": "Mayotte",
+        "totalpop": 149613,
+        "popchange": 746,
+        "percpopchange": 0.49861977234598603
+    },
+    {
+        "name": "Congo",
+        "totalpop": 2914434,
+        "popchange": -4466,
+        "percpopchange": -0.15323730096478425
+    },
+    {
+        "name": "Dem. Rep. of the Congo",
+        "totalpop": 47574851,
+        "popchange": -64643,
+        "percpopchange": -0.13587641083731403
+    },
+    {
+        "name": "Cook Islands",
+        "totalpop": 8108,
+        "popchange": -160,
+        "percpopchange": -1.973359644795264
+    },
+    {
+        "name": "Costa Rica",
+        "totalpop": 2578741,
+        "popchange": 2084,
+        "percpopchange": 0.08081463008499108
+    },
+    {
+        "name": "Croatia",
+        "totalpop": 1976849,
+        "popchange": -10402,
+        "percpopchange": -0.5261909230295283
+    },
+    {
+        "name": "Cuba",
+        "totalpop": 5589258,
+        "popchange": -7068,
+        "percpopchange": -0.12645685706403248
+    },
+    {
+        "name": "Cyprus",
+        "totalpop": 623155,
+        "popchange": 1995,
+        "percpopchange": 0.3201450682414487
+    },
+    {
+        "name": "Czechia",
+        "totalpop": 5176428,
+        "popchange": 3621,
+        "percpopchange": 0.0699517118754477
+    },
+    {
+        "name": "Benin",
+        "totalpop": 6509711,
+        "popchange": 1732,
+        "percpopchange": 0.026606403878758976
+    },
+    {
+        "name": "Denmark",
+        "totalpop": 2912157,
+        "popchange": 22746,
+        "percpopchange": 0.781070526073972
+    },
+    {
+        "name": "Dominica",
+        "totalpop": 36039,
+        "popchange": 57,
+        "percpopchange": 0.15816199117622576
+    },
+    {
+        "name": "Dominican Republic",
+        "totalpop": 5582224,
+        "popchange": -14966,
+        "percpopchange": -0.26810102926718815
+    },
+    {
+        "name": "Ecuador",
+        "totalpop": 8886835,
+        "popchange": 35894,
+        "percpopchange": 0.403900826334685
+    },
+    {
+        "name": "El Salvador",
+        "totalpop": 3006692,
+        "popchange": -27343,
+        "percpopchange": -0.909404754461049
+    },
+    {
+        "name": "Equatorial Guinea",
+        "totalpop": 863375,
+        "popchange": 6486,
+        "percpopchange": 0.7512378746199507
+    },
+    {
+        "name": "Ethiopia",
+        "totalpop": 60443405,
+        "popchange": -1391,
+        "percpopchange": -0.002301326339904246
+    },
+    {
+        "name": "Eritrea",
+        "totalpop": 1785840,
+        "popchange": -14988,
+        "percpopchange": -0.839268915468351
+    },
+    {
+        "name": "Estonia",
+        "totalpop": 630170,
+        "popchange": 2995,
+        "percpopchange": 0.47526857832013586
+    },
+    {
+        "name": "Faroe Islands",
+        "totalpop": 27380,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Falkland Islands (Malvinas)",
+        "totalpop": 1889,
+        "popchange": 4,
+        "percpopchange": 0.21175224986765487
+    },
+    {
+        "name": "Fiji",
+        "totalpop": 463683,
+        "popchange": -6003,
+        "percpopchange": -1.29463448088457
+    },
+    {
+        "name": "Finland",
+        "totalpop": 2735025,
+        "popchange": 14928,
+        "percpopchange": 0.5458085392272466
+    },
+    {
+        "name": "France",
+        "totalpop": 31195230,
+        "popchange": 20614,
+        "percpopchange": 0.0660806155300025
+    },
+    {
+        "name": "French Guiana",
+        "totalpop": 147837,
+        "popchange": 604,
+        "percpopchange": 0.40855807409511824
+    },
+    {
+        "name": "French Polynesia",
+        "totalpop": 153778,
+        "popchange": -378,
+        "percpopchange": -0.24580889333974948
+    },
+    {
+        "name": "Djibouti",
+        "totalpop": 548890,
+        "popchange": 742,
+        "percpopchange": 0.13518191258722148
+    },
+    {
+        "name": "Gabon",
+        "totalpop": 1192411,
+        "popchange": 1516,
+        "percpopchange": 0.12713737125873545
+    },
+    {
+        "name": "Georgia",
+        "totalpop": 1766893,
+        "popchange": -2734,
+        "percpopchange": -0.15473489339761945
+    },
+    {
+        "name": "Gambia",
+        "totalpop": 1313119,
+        "popchange": -1960,
+        "percpopchange": -0.14926293808862717
+    },
+    {
+        "name": "State of Palestine",
+        "totalpop": 2560424,
+        "popchange": -12369,
+        "percpopchange": -0.48308405170393653
+    },
+    {
+        "name": "Germany",
+        "totalpop": 41153991,
+        "popchange": 312735,
+        "percpopchange": 0.7599141478161863
+    },
+    {
+        "name": "Ghana",
+        "totalpop": 16375536,
+        "popchange": -11253,
+        "percpopchange": -0.06871836134096618
+    },
+    {
+        "name": "Gibraltar",
+        "totalpop": 16318,
+        "popchange": -58,
+        "percpopchange": -0.35543571516117173
+    },
+    {
+        "name": "Kiribati",
+        "totalpop": 62724,
+        "popchange": -296,
+        "percpopchange": -0.47190867929341235
+    },
+    {
+        "name": "Greece",
+        "totalpop": 5116887,
+        "popchange": -14806,
+        "percpopchange": -0.28935561797632037
+    },
+    {
+        "name": "Greenland",
+        "totalpop": 29593,
+        "popchange": -62,
+        "percpopchange": -0.20950900550805931
+    },
+    {
+        "name": "Grenada",
+        "totalpop": 62356,
+        "popchange": -85,
+        "percpopchange": -0.13631406761177753
+    },
+    {
+        "name": "Guadeloupe",
+        "totalpop": 179269,
+        "popchange": -638,
+        "percpopchange": -0.3558897522717257
+    },
+    {
+        "name": "Guam",
+        "totalpop": 85879,
+        "popchange": -244,
+        "percpopchange": -0.2841206814238638
+    },
+    {
+        "name": "Guatemala",
+        "totalpop": 8716970,
+        "popchange": -29118,
+        "percpopchange": -0.33403808892310055
+    },
+    {
+        "name": "Guinea",
+        "totalpop": 6685900,
+        "popchange": -4367,
+        "percpopchange": -0.06531656171943942
+    },
+    {
+        "name": "Guyana",
+        "totalpop": 393635,
+        "popchange": -4316,
+        "percpopchange": -1.0964472163298487
+    },
+    {
+        "name": "Haiti",
+        "totalpop": 5672851,
+        "popchange": -32977,
+        "percpopchange": -0.5813126415624172
+    },
+    {
+        "name": "Honduras",
+        "totalpop": 5190702,
+        "popchange": -5779,
+        "percpopchange": -0.11133368858393335
+    },
+    {
+        "name": "China, Hong Kong SAR",
+        "totalpop": 3456602,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Hungary",
+        "totalpop": 4654284,
+        "popchange": 19870,
+        "percpopchange": 0.4269185120632948
+    },
+    {
+        "name": "Iceland",
+        "totalpop": 189822,
+        "popchange": 622,
+        "percpopchange": 0.32767540116530225
+    },
+    {
+        "name": "India",
+        "totalpop": 726503430,
+        "popchange": -301970,
+        "percpopchange": -0.04156484161403065
+    },
+    {
+        "name": "Indonesia",
+        "totalpop": 137852477,
+        "popchange": -14992,
+        "percpopchange": -0.01087539399092553
+    },
+    {
+        "name": "Iran (Islamic Republic of)",
+        "totalpop": 44426790,
+        "popchange": 28080,
+        "percpopchange": 0.06320510664848844
+    },
+    {
+        "name": "Iraq",
+        "totalpop": 21797408,
+        "popchange": -60097,
+        "percpopchange": -0.2757070932470503
+    },
+    {
+        "name": "Ireland",
+        "totalpop": 2470919,
+        "popchange": 15320,
+        "percpopchange": 0.6200122302673621
+    },
+    {
+        "name": "Israel",
+        "totalpop": 4437152,
+        "popchange": 16856,
+        "percpopchange": 0.37988331253921437
+    },
+    {
+        "name": "Italy",
+        "totalpop": 28873257,
+        "popchange": 28021,
+        "percpopchange": 0.09704828242965455
+    },
+    {
+        "name": "Côte d'Ivoire",
+        "totalpop": 13877714,
+        "popchange": -21000,
+        "percpopchange": -0.15132175227130348
+    },
+    {
+        "name": "Jamaica",
+        "totalpop": 1402952,
+        "popchange": -5664,
+        "percpopchange": -0.4037201557858003
+    },
+    {
+        "name": "Japan",
+        "totalpop": 60567564,
+        "popchange": 87584,
+        "percpopchange": 0.14460545251580534
+    },
+    {
+        "name": "Kazakhstan",
+        "totalpop": 9230393,
+        "popchange": -18917,
+        "percpopchange": -0.2049425197822021
+    },
+    {
+        "name": "Jordan",
+        "totalpop": 5780155,
+        "popchange": 14374,
+        "percpopchange": 0.2486784523944427
+    },
+    {
+        "name": "Kenya",
+        "totalpop": 26279184,
+        "popchange": -52549,
+        "percpopchange": -0.19996435201336543
+    },
+    {
+        "name": "Dem. People's Rep. of Korea",
+        "totalpop": 12844384,
+        "popchange": -1589,
+        "percpopchange": -0.012371165483685321
+    },
+    {
+        "name": "Republic of Korea",
+        "totalpop": 25884957,
+        "popchange": 43440,
+        "percpopchange": 0.16781947908972766
+    },
+    {
+        "name": "Kosovo (under UNSC res. 1244)",
+        "totalpop": 828416,
+        "popchange": -15050,
+        "percpopchange": -1.8167201019777504
+    },
+    {
+        "name": "Kuwait",
+        "totalpop": 2590694,
+        "popchange": -36843,
+        "percpopchange": -1.4221285879382126
+    },
+    {
+        "name": "Kyrgyzstan",
+        "totalpop": 3205460,
+        "popchange": -16510,
+        "percpopchange": -0.5150586811253299
+    },
+    {
+        "name": "Lao People's Dem. Republic",
+        "totalpop": 3742575,
+        "popchange": -10303,
+        "percpopchange": -0.2752917443204211
+    },
+    {
+        "name": "Lebanon",
+        "totalpop": 2713490,
+        "popchange": -115122,
+        "percpopchange": -4.242580588098722
+    },
+    {
+        "name": "Lesotho",
+        "totalpop": 1125698,
+        "popchange": -1490,
+        "percpopchange": -0.13236232097774003
+    },
+    {
+        "name": "Latvia",
+        "totalpop": 867998,
+        "popchange": -6815,
+        "percpopchange": -0.7851400579264008
+    },
+    {
+        "name": "Liberia",
+        "totalpop": 2585172,
+        "popchange": -11862,
+        "percpopchange": -0.4588476124606023
+    },
+    {
+        "name": "Libya",
+        "totalpop": 3409508,
+        "popchange": -696,
+        "percpopchange": -0.020413502476017066
+    },
+    {
+        "name": "Liechtenstein",
+        "totalpop": 19353,
+        "popchange": 231,
+        "percpopchange": 1.193613393272361
+    },
+    {
+        "name": "Lithuania",
+        "totalpop": 1307737,
+        "popchange": -11853,
+        "percpopchange": -0.9063749056576361
+    },
+    {
+        "name": "Luxembourg",
+        "totalpop": 321766,
+        "popchange": 6949,
+        "percpopchange": 2.15964396486888
+    },
+    {
+        "name": "China, Macao SAR",
+        "totalpop": 322286,
+        "popchange": 4004,
+        "percpopchange": 1.2423747851287366
+    },
+    {
+        "name": "Madagascar",
+        "totalpop": 14490936,
+        "popchange": -742,
+        "percpopchange": -0.005120442185377121
+    },
+    {
+        "name": "Malawi",
+        "totalpop": 9670800,
+        "popchange": -1775,
+        "percpopchange": -0.018354220953799065
+    },
+    {
+        "name": "Malaysia",
+        "totalpop": 17166530,
+        "popchange": 46165,
+        "percpopchange": 0.268924471049187
+    },
+    {
+        "name": "Maldives",
+        "totalpop": 300736,
+        "popchange": 1189,
+        "percpopchange": 0.39536337518620984
+    },
+    {
+        "name": "Mali",
+        "totalpop": 11060744,
+        "popchange": -22236,
+        "percpopchange": -0.2010353010611221
+    },
+    {
+        "name": "Malta",
+        "totalpop": 273976,
+        "popchange": 10408,
+        "percpopchange": 3.798872893976115
+    },
+    {
+        "name": "Martinique",
+        "totalpop": 169829,
+        "popchange": -1452,
+        "percpopchange": -0.8549776539931343
+    },
+    {
+        "name": "Mauritania",
+        "totalpop": 2260590,
+        "popchange": -1494,
+        "percpopchange": -0.06608894138255943
+    },
+    {
+        "name": "Mauritius",
+        "totalpop": 640946,
+        "popchange": -478,
+        "percpopchange": -0.07457726547946317
+    },
+    {
+        "name": "Mexico",
+        "totalpop": 61856137,
+        "popchange": -52649,
+        "percpopchange": -0.08511524086930938
+    },
+    {
+        "name": "Monaco",
+        "totalpop": 17982,
+        "popchange": 206,
+        "percpopchange": 1.1455900344789234
+    },
+    {
+        "name": "Mongolia",
+        "totalpop": 1661462,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Republic of Moldova",
+        "totalpop": 1453237,
+        "popchange": -14278,
+        "percpopchange": -0.9824963168430201
+    },
+    {
+        "name": "Montenegro",
+        "totalpop": 305886,
+        "popchange": -101,
+        "percpopchange": -0.03301883708309632
+    },
+    {
+        "name": "Montserrat",
+        "totalpop": 2332,
+        "popchange": -40,
+        "percpopchange": -1.7152658662092626
+    },
+    {
+        "name": "Morocco",
+        "totalpop": 18665663,
+        "popchange": -46242,
+        "percpopchange": -0.24773832035861784
+    },
+    {
+        "name": "Mozambique",
+        "totalpop": 15737224,
+        "popchange": -9515,
+        "percpopchange": -0.0604617434434434
+    },
+    {
+        "name": "Oman",
+        "totalpop": 2761768,
+        "popchange": -20664,
+        "percpopchange": -0.7482163599549274
+    },
+    {
+        "name": "Namibia",
+        "totalpop": 1221166,
+        "popchange": -4301,
+        "percpopchange": -0.35220436861163834
+    },
+    {
+        "name": "Nauru",
+        "totalpop": 6360,
+        "popchange": -66,
+        "percpopchange": -1.0377358490566038
+    },
+    {
+        "name": "Nepal",
+        "totalpop": 14370964,
+        "popchange": 296541,
+        "percpopchange": 2.063473264563185
+    },
+    {
+        "name": "Netherlands",
+        "totalpop": 8696499,
+        "popchange": 57439,
+        "percpopchange": 0.6604841787482526
+    },
+    {
+        "name": "Curaçao",
+        "totalpop": 91201,
+        "popchange": 502,
+        "percpopchange": 0.5504325610464798
+    },
+    {
+        "name": "Aruba",
+        "totalpop": 50207,
+        "popchange": 501,
+        "percpopchange": 0.9978688230724799
+    },
+    {
+        "name": "Sint Maarten (Dutch part)",
+        "totalpop": 23572,
+        "popchange": 212,
+        "percpopchange": 0.8993721364330562
+    },
+    {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "totalpop": 13698,
+        "popchange": 505,
+        "percpopchange": 3.6866695868009924
+    },
+    {
+        "name": "New Caledonia",
+        "totalpop": 143262,
+        "popchange": -1182,
+        "percpopchange": -0.8250617749298488
+    },
+    {
+        "name": "Vanuatu",
+        "totalpop": 160506,
+        "popchange": -197,
+        "percpopchange": -0.12273684472854597
+    },
+    {
+        "name": "New Zealand",
+        "totalpop": 2542360,
+        "popchange": 38220,
+        "percpopchange": 1.5033276168599254
+    },
+    {
+        "name": "Nicaragua",
+        "totalpop": 3375630,
+        "popchange": -10384,
+        "percpopchange": -0.3076166522989783
+    },
+    {
+        "name": "Niger",
+        "totalpop": 12809135,
+        "popchange": -4405,
+        "percpopchange": -0.03438951966701889
+    },
+    {
+        "name": "Nigeria",
+        "totalpop": 107827012,
+        "popchange": -76364,
+        "percpopchange": -0.07082084403859767
+    },
+    {
+        "name": "Niue",
+        "totalpop": 911,
+        "popchange": -4,
+        "percpopchange": -0.43907793633369924
+    },
+    {
+        "name": "Norway",
+        "totalpop": 2725559,
+        "popchange": 10604,
+        "percpopchange": 0.38905780428895503
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "totalpop": 26597,
+        "popchange": -431,
+        "percpopchange": -1.620483513178178
+    },
+    {
+        "name": "Micronesia (Fed. States of)",
+        "totalpop": 56898,
+        "popchange": -635,
+        "percpopchange": -1.1160321979682941
+    },
+    {
+        "name": "Marshall Islands",
+        "totalpop": 21483,
+        "popchange": -1901,
+        "percpopchange": -8.84885723595401
+    },
+    {
+        "name": "Palau",
+        "totalpop": 9381,
+        "popchange": 3,
+        "percpopchange": 0.03197953309881676
+    },
+    {
+        "name": "Pakistan",
+        "totalpop": 116815853,
+        "popchange": -471395,
+        "percpopchange": -0.40353683844606264
+    },
+    {
+        "name": "Panama",
+        "totalpop": 2176523,
+        "popchange": 5473,
+        "percpopchange": 0.2514561068272653
+    },
+    {
+        "name": "Papua New Guinea",
+        "totalpop": 5137884,
+        "popchange": 10695,
+        "percpopchange": 0.20815962368944102
+    },
+    {
+        "name": "Paraguay",
+        "totalpop": 3365266,
+        "popchange": -8230,
+        "percpopchange": -0.24455719102145268
+    },
+    {
+        "name": "Peru",
+        "totalpop": 16695110,
+        "popchange": 68012,
+        "percpopchange": 0.4073767708029477
+    },
+    {
+        "name": "Philippines",
+        "totalpop": 57817463,
+        "popchange": -80125,
+        "percpopchange": -0.13858269775690435
+    },
+    {
+        "name": "Poland",
+        "totalpop": 18524344,
+        "popchange": -2968,
+        "percpopchange": -0.01602215981305465
+    },
+    {
+        "name": "Portugal",
+        "totalpop": 4854733,
+        "popchange": 27295,
+        "percpopchange": 0.5622348335119562
+    },
+    {
+        "name": "Guinea-Bissau",
+        "totalpop": 1017216,
+        "popchange": -1395,
+        "percpopchange": -0.1371390147225368
+    },
+    {
+        "name": "Timor-Leste",
+        "totalpop": 673599,
+        "popchange": -1997,
+        "percpopchange": -0.296467185966725
+    },
+    {
+        "name": "Puerto Rico",
+        "totalpop": 1537985,
+        "popchange": -7408,
+        "percpopchange": -0.48166919703378125
+    },
+    {
+        "name": "Qatar",
+        "totalpop": 1953675,
+        "popchange": -30801,
+        "percpopchange": -1.5765672386655918
+    },
+    {
+        "name": "Réunion",
+        "totalpop": 466093,
+        "popchange": -423,
+        "percpopchange": -0.09075442025518513
+    },
+    {
+        "name": "Romania",
+        "totalpop": 9344980,
+        "popchange": -12724,
+        "percpopchange": -0.13615866486605643
+    },
+    {
+        "name": "Russian Federation",
+        "totalpop": 67392659,
+        "popchange": 320617,
+        "percpopchange": 0.47574469498228283
+    },
+    {
+        "name": "Rwanda",
+        "totalpop": 6582238,
+        "popchange": -6112,
+        "percpopchange": -0.09285595567951205
+    },
+    {
+        "name": "Saint Barthélemy",
+        "totalpop": 5706,
+        "popchange": 152,
+        "percpopchange": 2.663862600771118
+    },
+    {
+        "name": "Saint Helena",
+        "totalpop": 2673,
+        "popchange": 34,
+        "percpopchange": 1.2719790497568275
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "totalpop": 23015,
+        "popchange": -90,
+        "percpopchange": -0.3910493156636976
+    },
+    {
+        "name": "Anguilla",
+        "totalpop": 7718,
+        "popchange": 111,
+        "percpopchange": 1.438196423944027
+    },
+    {
+        "name": "Saint Lucia",
+        "totalpop": 88940,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Saint Martin (French part)",
+        "totalpop": 15188,
+        "popchange": -948,
+        "percpopchange": -6.241769818277588
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "totalpop": 2927,
+        "popchange": 8,
+        "percpopchange": 0.2733173898189272
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "totalpop": 53209,
+        "popchange": -379,
+        "percpopchange": -0.7122855156082617
+    },
+    {
+        "name": "San Marino",
+        "totalpop": 16419,
+        "popchange": 41,
+        "percpopchange": 0.24971070101711432
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "totalpop": 111305,
+        "popchange": -792,
+        "percpopchange": -0.711558330712906
+    },
+    {
+        "name": "Saudi Arabia",
+        "totalpop": 20766246,
+        "popchange": -153883,
+        "percpopchange": -0.7410246416227564
+    },
+    {
+        "name": "Senegal",
+        "totalpop": 8297056,
+        "popchange": -10091,
+        "percpopchange": -0.12162145223558814
+    },
+    {
+        "name": "Serbia",
+        "totalpop": 3497110,
+        "popchange": 243,
+        "percpopchange": 0.006948594696763899
+    },
+    {
+        "name": "Seychelles",
+        "totalpop": 56100,
+        "popchange": 146,
+        "percpopchange": 0.26024955436720143
+    },
+    {
+        "name": "Sierra Leone",
+        "totalpop": 4218840,
+        "popchange": -1544,
+        "percpopchange": -0.03659773776677949
+    },
+    {
+        "name": "Singapore",
+        "totalpop": 3107496,
+        "popchange": 19321,
+        "percpopchange": 0.6217546217275903
+    },
+    {
+        "name": "Slovakia",
+        "totalpop": 2659885,
+        "popchange": 1746,
+        "percpopchange": 0.06564193564759378
+    },
+    {
+        "name": "Viet Nam",
+        "totalpop": 48136186,
+        "popchange": -992,
+        "percpopchange": -0.0020608196918634144
+    },
+    {
+        "name": "Slovenia",
+        "totalpop": 1065172,
+        "popchange": 4568,
+        "percpopchange": 0.42885092736196595
+    },
+    {
+        "name": "Somalia",
+        "totalpop": 8555628,
+        "popchange": -17071,
+        "percpopchange": -0.19952947930882456
+    },
+    {
+        "name": "South Africa",
+        "totalpop": 28894609,
+        "popchange": 10934,
+        "percpopchange": 0.0378409688810809
+    },
+    {
+        "name": "Zimbabwe",
+        "totalpop": 7543691,
+        "popchange": -25005,
+        "percpopchange": -0.33146903816712536
+    },
+    {
+        "name": "Spain",
+        "totalpop": 23271722,
+        "popchange": 275022,
+        "percpopchange": 1.1817862038743845
+    },
+    {
+        "name": "South Sudan",
+        "totalpop": 5320584,
+        "popchange": -31885,
+        "percpopchange": -0.599276320043063
+    },
+    {
+        "name": "Sudan",
+        "totalpop": 22814719,
+        "popchange": -15223,
+        "percpopchange": -0.06672446853279236
+    },
+    {
+        "name": "Western Sahara",
+        "totalpop": 312249,
+        "popchange": 3498,
+        "percpopchange": 1.120259792665469
+    },
+    {
+        "name": "Suriname",
+        "totalpop": 305387,
+        "popchange": -492,
+        "percpopchange": -0.16110705432778738
+    },
+    {
+        "name": "Eswatini",
+        "totalpop": 591830,
+        "popchange": -4897,
+        "percpopchange": -0.8274335535542301
+    },
+    {
+        "name": "Sweden",
+        "totalpop": 5272514,
+        "popchange": 80097,
+        "percpopchange": 1.519142481176911
+    },
+    {
+        "name": "Switzerland",
+        "totalpop": 4313990,
+        "popchange": 23872,
+        "percpopchange": 0.5533624324581188
+    },
+    {
+        "name": "Syrian Arab Republic",
+        "totalpop": 10681136,
+        "popchange": 212187,
+        "percpopchange": 1.9865583585865771
+    },
+    {
+        "name": "Tajikistan",
+        "totalpop": 4906143,
+        "popchange": -3564,
+        "percpopchange": -0.07264362249530844
+    },
+    {
+        "name": "Thailand",
+        "totalpop": 34794010,
+        "popchange": 1133,
+        "percpopchange": 0.003256307623065005
+    },
+    {
+        "name": "Togo",
+        "totalpop": 4345278,
+        "popchange": -995,
+        "percpopchange": -0.022898419847936082
+    },
+    {
+        "name": "Tokelau",
+        "totalpop": 923,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Tonga",
+        "totalpop": 52439,
+        "popchange": -948,
+        "percpopchange": -1.8078147943324625
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "totalpop": 752790,
+        "popchange": 2632,
+        "percpopchange": 0.3496326996904847
+    },
+    {
+        "name": "United Arab Emirates",
+        "totalpop": 6512037,
+        "popchange": -2762,
+        "percpopchange": -0.042413763926709876
+    },
+    {
+        "name": "Tunisia",
+        "totalpop": 6057044,
+        "popchange": -9189,
+        "percpopchange": -0.15170766466282892
+    },
+    {
+        "name": "Türkiye",
+        "totalpop": 42489830,
+        "popchange": -69729,
+        "percpopchange": -0.16410750525478685
+    },
+    {
+        "name": "Turkmenistan",
+        "totalpop": 3141730,
+        "popchange": -4503,
+        "percpopchange": -0.14332867560229556
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "totalpop": 22729,
+        "popchange": 682,
+        "percpopchange": 3.000571956531304
+    },
+    {
+        "name": "Tuvalu",
+        "totalpop": 5755,
+        "popchange": -15,
+        "percpopchange": -0.26064291920069504
+    },
+    {
+        "name": "Uganda",
+        "totalpop": 22700638,
+        "popchange": 43465,
+        "percpopchange": 0.1914703895106384
+    },
+    {
+        "name": "Ukraine",
+        "totalpop": 20147332,
+        "popchange": 831,
+        "percpopchange": 0.0041246156066718906
+    },
+    {
+        "name": "North Macedonia",
+        "totalpop": 1048697,
+        "popchange": -486,
+        "percpopchange": -0.04634322401990279
+    },
+    {
+        "name": "Egypt",
+        "totalpop": 55260287,
+        "popchange": -32370,
+        "percpopchange": -0.0585773287786218
+    },
+    {
+        "name": "United Kingdom",
+        "totalpop": 33238585,
+        "popchange": 202027,
+        "percpopchange": 0.6078086657419381
+    },
+    {
+        "name": "Guernsey",
+        "totalpop": 31350,
+        "popchange": 122,
+        "percpopchange": 0.3891547049441786
+    },
+    {
+        "name": "Jersey",
+        "totalpop": 54094,
+        "popchange": 1120,
+        "percpopchange": 2.0704699227271046
+    },
+    {
+        "name": "Isle of Man",
+        "totalpop": 41736,
+        "popchange": 517,
+        "percpopchange": 1.2387387387387387
+    },
+    {
+        "name": "United Republic of Tanzania",
+        "totalpop": 31417653,
+        "popchange": -4865,
+        "percpopchange": -0.015484924987872265
+    },
+    {
+        "name": "United States of America",
+        "totalpop": 166941642,
+        "popchange": 561580,
+        "percpopchange": 0.33639300133396316
+    },
+    {
+        "name": "United States Virgin Islands",
+        "totalpop": 46807,
+        "popchange": -224,
+        "percpopchange": -0.47856089901083165
+    },
+    {
+        "name": "Burkina Faso",
+        "totalpop": 11010698,
+        "popchange": -13097,
+        "percpopchange": -0.11894795407157657
+    },
+    {
+        "name": "Uruguay",
+        "totalpop": 1659492,
+        "popchange": -1486,
+        "percpopchange": -0.0895454753623398
+    },
+    {
+        "name": "Uzbekistan",
+        "totalpop": 17051893,
+        "popchange": -39201,
+        "percpopchange": -0.22989236444305627
+    },
+    {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "totalpop": 13956811,
+        "popchange": -525116,
+        "percpopchange": -3.7624354159413635
+    },
+    {
+        "name": "Wallis and Futuna Islands",
+        "totalpop": 5595,
+        "popchange": -83,
+        "percpopchange": -1.483467381590706
+    },
+    {
+        "name": "Samoa",
+        "totalpop": 111550,
+        "popchange": -882,
+        "percpopchange": -0.790676826535186
+    },
+    {
+        "name": "Yemen",
+        "totalpop": 16668432,
+        "popchange": -101468,
+        "percpopchange": -0.6087435218861619
+    },
+    {
+        "name": "Zambia",
+        "totalpop": 9609004,
+        "popchange": 9015,
+        "percpopchange": 0.09381825629378446
+    },
+    {
+        "name": "World",
+        "totalpop": 3976648226,
+        "popchange": 0,
+        "percpopchange": 0
+    },
+    {
+        "name": "Developed regions",
+        "totalpop": 621622298,
+        "popchange": 2418432,
+        "percpopchange": 0.38905168102576654
+    },
+    {
+        "name": "Developing regions",
+        "totalpop": 3355025929,
+        "popchange": -2418428,
+        "percpopchange": -0.07208373500471983
+    },
+    {
+        "name": "Africa",
+        "totalpop": 695883355,
+        "popchange": -546944,
+        "percpopchange": -0.07859708039718812
+    },
+    {
+        "name": "Latin America and the Caribbean",
+        "totalpop": 323223451,
+        "popchange": -274248,
+        "percpopchange": -0.08484780394229502
+    },
+    {
+        "name": "Northern America",
+        "totalpop": 185965130,
+        "popchange": 756998,
+        "percpopchange": 0.4070644856914842
+    },
+    {
+        "name": "Eastern Asia",
+        "totalpop": 844608482,
+        "popchange": -40362,
+        "percpopchange": -0.004778782223974871
+    },
+    {
+        "name": "Europe",
+        "totalpop": 359679495,
+        "popchange": 1417701,
+        "percpopchange": 0.3941567478012612
+    },
+    {
+        "name": "Oceania",
+        "totalpop": 22307797,
+        "popchange": 150968,
+        "percpopchange": 0.676749927390858
+    },
+    {
+        "name": "Eastern Africa",
+        "totalpop": 228642954,
+        "popchange": -128872,
+        "percpopchange": -0.05636386240881055
+    },
+    {
+        "name": "Middle Africa",
+        "totalpop": 94623909,
+        "popchange": -119544,
+        "percpopchange": -0.12633593482171615
+    },
+    {
+        "name": "Northern Africa",
+        "totalpop": 129016714,
+        "popchange": -119019,
+        "percpopchange": -0.09225083813559226
+    },
+    {
+        "name": "Southern Africa",
+        "totalpop": 33111038,
+        "popchange": 2062,
+        "percpopchange": 0.006227530529245262
+    },
+    {
+        "name": "Western Africa",
+        "totalpop": 210488740,
+        "popchange": -181571,
+        "percpopchange": -0.08626162140549655
+    },
+    {
+        "name": "Caribbean",
+        "totalpop": 21853619,
+        "popchange": -65724,
+        "percpopchange": -0.30074652623897213
+    },
+    {
+        "name": "Central America",
+        "totalpop": 87102626,
+        "popchange": -117139,
+        "percpopchange": -0.13448389030199848
+    },
+    {
+        "name": "South-Eastern Asia",
+        "totalpop": 338515524,
+        "popchange": -101626,
+        "percpopchange": -0.030021075192994694
+    },
+    {
+        "name": "Western Asia",
+        "totalpop": 151356872,
+        "popchange": -381951,
+        "percpopchange": -0.25235127744976127
+    },
+    {
+        "name": "Eastern Europe",
+        "totalpop": 137107507,
+        "popchange": 320960,
+        "percpopchange": 0.23409367366004258
+    },
+    {
+        "name": "Northern Europe",
+        "totalpop": 52505048,
+        "popchange": 332430,
+        "percpopchange": 0.6331391221659296
+    },
+    {
+        "name": "Southern Europe",
+        "totalpop": 74222172,
+        "popchange": 269595,
+        "percpopchange": 0.3632270421835675
+    },
+    {
+        "name": "Western Europe",
+        "totalpop": 95844768,
+        "popchange": 494716,
+        "percpopchange": 0.516163803536986
+    },
+    {
+        "name": "Australia/New Zealand",
+        "totalpop": 15410108,
+        "popchange": 156149,
+        "percpopchange": 1.0132894591004813
+    },
+    {
+        "name": "Melanesia",
+        "totalpop": 6267018,
+        "popchange": 2505,
+        "percpopchange": 0.039971163318822445
+    },
+    {
+        "name": "South America",
+        "totalpop": 214267206,
+        "popchange": -91385,
+        "percpopchange": -0.04265001710061035
+    },
+    {
+        "name": "Other developing regions",
+        "totalpop": 2808157311,
+        "popchange": -1896652,
+        "percpopchange": -0.06754080309427508
+    },
+    {
+        "name": "Asia",
+        "totalpop": 2389588998,
+        "popchange": -1504471,
+        "percpopchange": -0.06295940436866708
+    },
+    {
+        "name": "Least developed countries",
+        "totalpop": 546868618,
+        "popchange": -521776,
+        "percpopchange": -0.09541158201913864
+    },
+    {
+        "name": "Sub-Saharan Africa",
+        "totalpop": 566866641,
+        "popchange": -427925,
+        "percpopchange": -0.07548953652398818
+    },
+    {
+        "name": "Micronesia",
+        "totalpop": 269321,
+        "popchange": -3570,
+        "percpopchange": -1.3255557494588244
+    },
+    {
+        "name": "Polynesia",
+        "totalpop": 361349,
+        "popchange": -4116,
+        "percpopchange": -1.1390650036391412
+    },
+    {
+        "name": "Small island developing States (SIDS)",
+        "totalpop": 37162507,
+        "popchange": -70673,
+        "percpopchange": -0.19017285351604507
+    },
+    {
+        "name": "Landlocked developing countries (LLDCs)",
+        "totalpop": 273578434,
+        "popchange": -168497,
+        "percpopchange": -0.06159001553463092
+    },
+    {
+        "name": "Low-income countries",
+        "totalpop": 358364395,
+        "popchange": -338529,
+        "percpopchange": -0.09446502072283158
+    },
+    {
+        "name": "Lower-middle-income countries",
+        "totalpop": 1721157111,
+        "popchange": -1444849,
+        "percpopchange": -0.08394637484084973
+    },
+    {
+        "name": "Upper-middle-income countries",
+        "totalpop": 1263190799,
+        "popchange": 176781,
+        "percpopchange": 0.013994797946592707
+    },
+    {
+        "name": "High-income countries",
+        "totalpop": 619622768,
+        "popchange": 2127852,
+        "percpopchange": 0.34341087995656094
+    },
+    {
+        "name": "Middle-income countries",
+        "totalpop": 2984347911,
+        "popchange": -1268068,
+        "percpopchange": -0.04249062233414648
+    },
+    {
+        "name": "No income group available",
+        "totalpop": 14313152,
+        "popchange": -521251,
+        "percpopchange": -3.6417624853002333
+    },
+    {
+        "name": "Europe and Northern America",
+        "totalpop": 545644625,
+        "popchange": 2174699,
+        "percpopchange": 0.3985559282289274
+    },
+    {
+        "name": "Central and Southern Asia",
+        "totalpop": 1055108120,
+        "popchange": -980532,
+        "percpopchange": -0.09293189782294539
+    },
+    {
+        "name": "Eastern and South-Eastern Asia",
+        "totalpop": 1183124007,
+        "popchange": -141988,
+        "percpopchange": -0.012001108857560356
+    },
+    {
+        "name": "Northern Africa and Western Asia",
+        "totalpop": 280373586,
+        "popchange": -500970,
+        "percpopchange": -0.17867945663041168
+    },
+    {
+        "name": "Australia/New Zealand",
+        "totalpop": 15410108,
+        "popchange": 156149,
+        "percpopchange": 1.0132894591004813
+    },
+    {
+        "name": "Oceania (excluding Australia and New Zealand)",
+        "totalpop": 6897688,
+        "popchange": -5181,
+        "percpopchange": -0.07511212452636304
+    },
+    {
+        "name": "Central Asia",
+        "totalpop": 37535618,
+        "popchange": -82695,
+        "percpopchange": -0.22031074591605232
+    },
+    {
+        "name": "Southern Asia",
+        "totalpop": 1017572502,
+        "popchange": -897837,
+        "percpopchange": -0.08823322153805607
+    }
+]
