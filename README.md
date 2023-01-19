@@ -50,11 +50,8 @@ In ‘Oh! The Places We Go,’ users will be able to interactive with the below 
 
 
 <section>
-<h3>Fianl Design</h3>
-<img src="./assets/images/finaldesign.png">
-<video width="300" height="300"> 
-	<source src="./assets/images/interactivewebpageuse.mov">>
-</video> 
+<h3>Final Design</h3>
+<img src="./assets/images/finaldesign.png"> 
 </section>
 
 </br>
