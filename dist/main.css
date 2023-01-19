@@ -77,9 +77,10 @@ main {
   padding-top: 20px;
 }
 
-li a {
+li {
   text-decoration: none;
   color: #736849;
+  cursor: pointer;
 }
 
 nav {
