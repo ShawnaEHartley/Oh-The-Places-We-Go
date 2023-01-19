@@ -14,10 +14,30 @@
   <body>
     <header>
       <h1 id="title">Oh! The Places We Go</h1>
+      <section class="linkbuttons">
+        <button id="modal-open"><img src="./assets/images/icons8-about-50.png"></button>
+        <a id="github" href="https://github.com/ShawnaEHartley" target="_blank"><img src="./assets/images/icons8-github-50.png"></a>
+        <a id="linkedin" href="https://www.linkedin.com/in/shawna-e-hartley/" target="_blank"><img src="./assets/images/icons8-linkedin-circled-50.png"></a>
+      </section>
     </header>
 
+    <section class="modal">
+      <div id="modal-wrap">
+        <div id="modal">
+          <ul>
+            <li>This visual defaults to 2021 net migration change per country</li>
+            <li>To interact, click on a country to see statistics to the left</li>
+            <li>Utilize the year drop down to select another year of statistics</li>
+            <br>
+            <button id="modal-close">Have Fun</button>
+          </ul>
+        </div>
+      </div>
+    </section>
     
     <main>
+
+
       <section class="tablecontainer">
         <nav>
           <label for="touch"><span>Year</span></label>
@@ -38,8 +58,8 @@
           </ul>
         </nav>
           <ul class="resp-table">
-            <!-- <li class="th">Year</li>
-            <li class="fill" id="year"></li> -->
+          <li class="th">Year</li>
+          <li class="fill" id="year"></li>
           <li class="th">Country</li>
           <li class="fill" id="country"></li>
           <li class="th">Total Population</li>
@@ -67,11 +87,10 @@
           <div id='selectors'>
             <form action="">
               <label for="">
-                <button id="migpopchangerad"> Net Migration Change</button>
+                <button autofocus id="migpopchangerad"> Net Migration Change</button>
                 <button id="popchangerad"> Population Change</button>
               </label>
             </form>
-            
           </div>
         </section>
         <div id="map"></div>
@@ -90,12 +109,40 @@
           <p>--------------------------</p>
           <p>About The Page</p>
           <p>--------------------------</p>
+          <br>
           <p>In this visual representation of population and migration, you can quickly see statistics per country by clicking on the map.</p>
-          <p>The default year is 2021 (will update to 2022, as soon as the UN population database finalizes migration data for 2022), but you can use the year drop down to select any year back to 2010. This selection will update the populated stats on the left hand table, but the map coloration will stay fixed on Jan 1, 2021 - Dec 31, 2021.</p>
+          <br>
+          <p>The default year is 2021 (will update to 2022, as soon as the UN population database finalizes migration data for 2022). </p>
+          <p>You can use the year drop down to select any year back to 2010. This will update the stats in the table, but the map will stay fixed on 2021.</p>
+          <br>
           <p>As more databases are added to this visual, more filter buttons will become available at the top.</p>
+          <br>
+          
+          <p>--------------------------</p>
+          <p>Data Parameters / Definitions</p>
+          <p>--------------------------</p>
+          <br>
+          <p>Population Change</p>
+          <p>Difference between the population sizes on 1 January of two consecutive years.</p>
+          <br>
+          <p>Total Net Migration</p>
+          <p>Net number of migrants, that is, the number of immigrants minus the number of emigrants.</p>
+          <br>
+          <p>Net Migration Change as a Percent of Population Change</p>
+          <p>The US, for 2021, shows 55.95%.</p>
+          <p>Mexico, for 2021, shows -8.25%.</p>
+          <br>
+          <p>How to Read this Number</p>
+          <p>In 2021, almost 56% of the US population change is due to migration. The remaining change is from natural population change (live births - deaths).</p>
+          <p>In Mexico, during the same year, the natural population change offset the migration decrease. Total population is up 0.5%, but net migration is negative.</p>
+          <br>
+          <p>--------------------------</p>
+          <br>
           <p>We hope you enjoy this data visualization and see how we, as a human race, migrate around our planet.</p>
           <br>
           <a href="https://population.un.org/dataportal/home">Link to UN Population Data Site</a>
+          <br>
+
         </section>
         
       </container>

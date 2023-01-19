@@ -15,7 +15,7 @@ There is a table readout of key data points that will update with a year selecto
 Future possibilities are layering in correlations to migration like GDP, eco-friendly/green score, # hospitals per capita, avg # paid vacation days per year. This would be a great future passion project to continue to build and layer for years to come. 
 </div>
 </section>
-
+</br>
 <section>
 <a href="https://shawnaehartley.github.io/Oh-The-Places-We-Go/">Live Link Here</a>
 </section>
@@ -25,7 +25,7 @@ Future possibilities are layering in correlations to migration like GDP, eco-fri
 <section>
 <h3>Functionality & MVPs:</h3>
 <div>
-In ‘Oh! The Places We Go,’ users will be able to:
+In ‘Oh! The Places We Go,’ users will be able to interactive with the below elements:
 	<ul>
 		<li>Side bar that updates with country selection with total ## data output</li>
 		<li>Year selector dropdown for side bar statistics</li>
@@ -48,18 +48,27 @@ In ‘Oh! The Places We Go,’ users will be able to:
 <img src="./assets/images/design.png">
 </section>
 
+
+<section>
+<h3>Fianl Design</h3>
+<img src="./assets/images/finaldesign.png">
+<video width="300" height="300"> 
+	<source src="./assets/images/interactivewebpageuse.mov">>
+</video> 
+</section>
+
 </br>
 
 <section>
 <h3>Technologies, Libraries, APIs:</h3>
 <div>This project is implemented with the following technologies:
 	<ul>
-		<li>The UN.org population API </li> <p>https://population.un.org/dataportal/about/dataapi#data-sources</p>
+		<li><a href="https://population.un.org/dataportal/about/dataapi#data-sources">The UN.org population API</a></li>
 		<li>Canvas API</li>
 		<li>D3 API library</li>
 		<li>Webpack</li>
 		<li>Npm</li>
-		<li>Asana Project Manager Suite</li> <p>https://app.asana.com/0/1203716781295644/board</p>
+		<li><a href="https://app.asana.com/0/1203716781295644/board">Asana Project Manager Suite</a></li>
 	</ul>
 </div>
 </section>
@@ -69,7 +78,19 @@ In ‘Oh! The Places We Go,’ users will be able to:
 <section>
 <h3>Technical Implementation with Code Snippets:</h3>
 <div>
+<h5>Integrated D3 Choropleth Map Graphic</h5>
+<img src="./assets/images/runpopulationchangefunction.png">
 <p></p>
+<h5>Update Country Selection</h5>
+<img src="./assets/images/updatelocationfunction.png">
+<p></p>
+<h5>Update Table Statistics Via Year Click</h5>
+<img src="./assets/images/yearselectorfunction.png">
+<p></p>
+<h5>% Change Buckets and Legend</h5>
+<img src="./assets/images/legendbuckets.png">
+<img src="./assets/images/legendhtml.png">
+<img src="./assets/images/legendcss.png">
 <p></p>
 </div>
 </section>
@@ -80,6 +101,7 @@ In ‘Oh! The Places We Go,’ users will be able to:
 <h3>Future Features:</h3>
 <div>
 <ul>
+<li>YOY Calculations</li>
 <li>3D map graphic</li>
 <li>map animation</li>
 <li>multi-year selection option for range</li>

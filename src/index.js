@@ -8,10 +8,29 @@ import popchange from '../assets/countryAllIndicators/listofpopchange.json'
 import natpopchange from '../assets/countryAllIndicators/listofnatpopchange.json'
 import migpopchange from '../assets/countryAllIndicators/listofmigrationpopchange.json'
 
+// modal 
+const modal  = document.getElementById("modal-wrap");
+const modalclose = document.getElementById("modal-close");
+modalclose.addEventListener("click", () =>( closeModal()))
+
+function closeModal() {
+  modal.style.display = "none";
+  radiomigrationpopulationchange.focus();
+}
+
+const modalopen = document.getElementById("modal-open")
+modalopen.addEventListener("click", () =>( openModal()))
+
+function openModal() {
+  modal.style.display = "block";
+}
+
+
+
 let location = {};
 
 async function updatelocation(location) {
-// to get net migration # indicator 65
+  // to get net migration # indicator 65
     let nmc = await fetch(`https://population.un.org/dataportalapi/api/v1/data/indicators/65/locations/${location.id}/start/${year}/end/${year}`);
     let dta = await nmc.json();
     let netmigration = dta.data[0].value;
@@ -19,7 +38,6 @@ async function updatelocation(location) {
     // to get total pop (by sex) indicator 49
     let totpop = await fetch(`https://population.un.org/dataportalapi/api/v1/data/indicators/49/locations/${location.id}/start/${year}/end/${year}`);
     let dta2 = await totpop.json();
-    //  male = idx 0, female = idx 1, both = idx 2
     let totalpop = dta2.data.find((obj) => obj.sex === "Both sexes").value;
     let malepop = dta2.data.find((obj) => obj.sex === "Male").value;
     let femalepop = dta2.data.find((obj) => obj.sex === "Female").value;
@@ -34,6 +52,7 @@ async function updatelocation(location) {
     
     cleartable();
 
+    document.getElementById('year').append(year)
     document.getElementById('country').append(location.name)
     document.getElementById('totpop').append(totalpop);
     document.getElementById('mpop').append(malepop);
@@ -52,6 +71,7 @@ async function updatelocation(location) {
 
 let year = 2021;
 function cleartable() {
+  document.getElementById('year').innerHTML='';
   document.getElementById('country').innerHTML='';
   document.getElementById('totpop').innerHTML='';
   document.getElementById('mpop').innerHTML='';

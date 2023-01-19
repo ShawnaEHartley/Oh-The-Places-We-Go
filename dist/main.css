@@ -61,17 +61,57 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  margin-right: 10%;
+  color: black;
+}
+header .linkbuttons {
+  padding-top: 10px;
+  size: 120%;
+}
+header .linkbuttons #linkedin {
+  margin-left: 6px;
+}
+header button {
+  border: none;
+  background: none;
+}
+header img {
+  height: 25px;
+}
+
+#modal-wrap {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  z-index: 2;
+  background-color: #2f3828;
+  opacity: 0.8;
+}
+#modal-wrap #modal {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  margin-top: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20;
 }
 
 #title {
   font-weight: bold;
   font-size: 30;
-  color: #7A6D58;
-  padding-left: 20px;
+  color: #835E2B;
+  padding-left: 30px;
   margin-top: 20px;
 }
 
 main {
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
@@ -84,7 +124,7 @@ li {
 }
 
 nav {
-  background: black;
+  background: #2B2926;
   margin: 5px;
   border-radius: 3px;
 }
@@ -92,7 +132,7 @@ nav {
 nav span {
   padding: 10px;
   background: #7A6D58;
-  color: white;
+  color: #c1b6a6;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -101,7 +141,7 @@ nav span {
   border-radius: 3px;
 }
 
-span::after {
+nav span::after {
   float: right;
   right: 10%;
   content: "+";
@@ -120,6 +160,11 @@ span::after {
   padding: 3px;
 }
 
+.slide li:hover {
+  background-color: #495d45;
+  color: #c1b6a6;
+}
+
 #touch {
   position: absolute;
   opacity: 0;
@@ -131,7 +176,7 @@ span::after {
 }
 
 .data {
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 .resp-table {
@@ -161,17 +206,21 @@ span::after {
 }
 
 .mapcontainer {
-  margin-left: 10px;
+  margin-left: 30px;
   width: 70%;
 }
 
-button {
+#mapbuttons button {
   background-color: #7c7c53;
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   border-radius: 5px;
+}
+
+#mapbuttons button:focus {
+  background-color: #04432f;
 }
 
 .country:hover {
@@ -213,6 +262,9 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.legend #legendtext span {
+  text-decoration: none;
+}
 
 .userinfo {
   margin-top: 30px;
@@ -221,6 +273,7 @@ button {
   padding-right: 150px;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  border-radius: 5px;
   background-color: #B69979;
   color: #362727;
   text-align: center;
