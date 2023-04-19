@@ -28,7 +28,6 @@ header {
   }
 }
 
-
 #modal-wrap {
   display: block;
   position: fixed;
@@ -37,19 +36,30 @@ header {
   width: 100vw;
   z-index: 2;
   background-color: #2f3828;
-  opacity: .8;
-  #modal {
-    display: flex;
-    justify-content: center;
-    z-index: 3;
-    background-color: black;
-    text-align: center;
-    opacity: 1;
-    margin-top: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 20;
-  }
+  opacity: .9;
+}
+
+#modal {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  margin-top: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20;
+}
+
+#modal-close {
+  width: 230px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #736849;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #title {

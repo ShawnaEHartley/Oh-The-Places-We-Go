@@ -87,9 +87,10 @@ header img {
   width: 100vw;
   z-index: 2;
   background-color: #2f3828;
-  opacity: 0.8;
+  opacity: 0.9;
 }
-#modal-wrap #modal {
+
+#modal {
   display: flex;
   justify-content: center;
   z-index: 3;
@@ -100,6 +101,16 @@ header img {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 20;
+}
+
+#modal-close {
+  width: 230px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #736849;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #title {
